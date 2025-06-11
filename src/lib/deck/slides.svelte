@@ -16,14 +16,15 @@
 	onMount(() => {
 		const deck = new Reveal({
 			plugins: [Markdown, Highlight, Notes, KaTeX],
-			autoAnimateEasing: 'ease',
-			autoAnimateDuration: 1,
-			hash: true
-			// controls: false,
-			// progress: false
+			autoAnimateEasing: 'false',
+			hash: true,
+			center: false
 		});
 
-		deck.initialize();
+		deck.initialize({
+			width: 1512,
+			height: 982
+		});
 	});
 </script>
 

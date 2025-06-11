@@ -5,6 +5,7 @@
 	import Highlight from 'reveal.js/plugin/highlight/highlight';
 	import Markdown from 'reveal.js/plugin/markdown/markdown';
 	import Notes from 'reveal.js/plugin/notes/notes';
+	import KaTeX from 'reveal.js/plugin/math/math';
 
 	import 'reveal.js/dist/reveal.css';
 	import 'reveal.js/dist/theme/black.css';
@@ -14,7 +15,7 @@
 
 	onMount(() => {
 		const deck = new Reveal({
-			plugins: [Markdown, Highlight, Notes],
+			plugins: [Markdown, Highlight, Notes, KaTeX],
 			autoAnimateEasing: 'ease',
 			autoAnimateDuration: 1,
 			hash: true

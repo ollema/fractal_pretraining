@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Code from './code.svelte';
+	import Markdown from './markdown.svelte';
 	import Slide from './slide.svelte';
 </script>
 
@@ -25,4 +27,17 @@
 		<li>Solid</li>
 		<li>Vue</li>
 	</ul>
+	$$ a + b $$
 </Slide>
+
+<Slide animate>
+	<Code id="code" lines="2|1-3">
+		{`
+			function love() {
+				console.log('Svelte')
+			}
+	 `}
+	</Code>
+</Slide>
+
+<Markdown name="introduction.md" external />

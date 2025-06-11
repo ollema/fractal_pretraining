@@ -8,7 +8,7 @@
 	import KaTeX from 'reveal.js/plugin/math/math';
 
 	import 'reveal.js/dist/reveal.css';
-	import 'reveal.js/dist/theme/black.css';
+	import 'reveal.js/dist/theme/white.css';
 	import 'reveal.js/plugin/highlight/monokai.css';
 
 	import Presentation from './presentation.svelte';
@@ -16,7 +16,8 @@
 	onMount(() => {
 		const deck = new Reveal({
 			plugins: [Markdown, Highlight, Notes, KaTeX],
-			autoAnimateEasing: 'false',
+			autoAnimate: false,
+			transition: 'none',
 			hash: true,
 			center: false
 		});

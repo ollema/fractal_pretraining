@@ -8,9 +8,9 @@
 <Slide>
 	<div class="title-slide">
 		<h2>Scaling Backwards: Minimal Synthetic Pre-training?</h2>
+		<h3>Ryo Nakamura et al.</h3>
 		<h3>Zenseact Deep Learning Study Circle</h3>
-		<h4>2025-06-13</h4>
-		<h4>Olle Månsson</h4>
+		<h4>2025-06-13 - Olle Månsson</h4>
 		<img src="1p-frac.png" alt="1p-frac" />
 	</div>
 </Slide>

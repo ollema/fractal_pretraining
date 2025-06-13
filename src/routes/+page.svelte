@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>Presentation</title>
+	<title>fractal pre-training</title>
 </svelte:head>
 
 <Slides />

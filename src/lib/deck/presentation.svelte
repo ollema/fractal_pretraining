@@ -1,5 +1,7 @@
 <script lang="ts">
+	import DeltaPicker from './delta-picker.svelte';
 	import Markdown from './markdown.svelte';
+	import SigmaPicker from './sigma-picker.svelte';
 	import Slide from './slide.svelte';
 </script>
 
@@ -16,7 +18,14 @@
 <Markdown name="02-background.md" external />
 <Markdown name="03-method.md" external />
 <Markdown name="04-experiments.md" external />
+<Slide>
+	<DeltaPicker />
+</Slide>
 <Markdown name="05-experiments.md" external />
+<Slide>
+	<SigmaPicker />
+</Slide>
+<Markdown name="06-experiments.md" external />
 <Markdown name="07-conclusion.md" external />
 
 <!-- <Markdown name="99-applications.md" external /> -->
